@@ -27,7 +27,7 @@ script:
 
 before_deploy:
 # Git is in detached HEAD, so we get back on the branch we are supposed to be
-  - git checkout -B $TRAVIS_BRANCH
+  - git checkout master
 
 deploy:
   skip_cleanup: true
