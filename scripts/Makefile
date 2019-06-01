@@ -8,6 +8,7 @@ all: pushed.txt
 
 
 pushed.txt: ../data/constituents.csv
+	git checkout master
 	git add * 
 	git commit -m "automatic update" || exit 0
 	git push
