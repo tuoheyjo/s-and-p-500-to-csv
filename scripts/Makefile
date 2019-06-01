@@ -6,6 +6,7 @@ all: pushed.txt
 ../data/constituents.csv: ../data constituents.py
 	python constituents.py
 
+
 pushed.txt: ../data/constituents.csv
 	git add * 
 	git commit -m "[data][skip ci] automatic update" || exit 0
