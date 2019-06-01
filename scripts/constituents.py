@@ -1,6 +1,7 @@
 #!/usr/bin/python
 from bs4 import BeautifulSoup
 import csv
+import sys
 from os import mkdir
 from os.path import exists, join
 try:
@@ -24,7 +25,7 @@ def retrieve():
     html = urlopen(source)
     page_content = html.read()
     with open(cache, 'w') as fid:
-        fid.write(page_content)
+        fid.write(str(page_content))
 
 
 def extract():
