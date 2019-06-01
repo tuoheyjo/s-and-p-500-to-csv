@@ -2,6 +2,7 @@
 from bs4 import BeautifulSoup
 import csv
 import sys
+import re
 from os import mkdir
 from os.path import exists, join
 try:
@@ -46,14 +47,21 @@ def extract():
     rows = table.findAll('tr')
     for row in rows:
         fields = row.findAll('td')
+
         if fields:
-            symbol = fields[0].string
+            symbol = fields[0].text.rstrip('\n')
             # fix as now they have links to the companies on WP
             name = ' '.join(fields[1].stripped_strings)
-            sector = fields[3].string
-            records.append([symbol, name, sector])
+            sector = ' '.join(fields[3].stripped_strings)
+            industry = fields[4].text
+            hq = fields[5].text
+            first_added = fields[6].text
+            CIK = fields[7].text
+            founded = fields[8].text
 
-    header = ['Symbol', 'Name', 'Sector']
+            records.append([symbol, name, sector, industry, hq.encode('utf-8'), first_added, CIK, founded])
+
+    header = ['Symbol', 'Name', 'Sector', 'SubIndustry', 'Headquarters_Location', 'Date_First_Added', 'CIK', 'Founded']
     writer = csv.writer(open('../data/constituents.csv', 'w'), lineterminator='\n')
     writer.writerow(header)
     # Sorting ensure easy tracking of modifications
