@@ -17,6 +17,10 @@ after_success:
 
 deploy:
   skip_cleanup: true
+  github_token: $GITHUB_UPDATE_TOKEN
+  email: db.update.bot@gmail.com
+  name: db-update-bot
+  keep_history: true
   provider: script
   script: make
   on:
