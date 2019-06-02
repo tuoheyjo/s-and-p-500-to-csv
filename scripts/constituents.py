@@ -14,7 +14,10 @@ except ImportError:
 datadir = join('..', 'data')
 
 if (exists(datadir)):
-    remove(join(datadir, 'constituents.csv'))
+    try:
+        remove(join(datadir, 'constituents.csv'))
+    except:
+        print("/data directory empty...continue on...")
 else:
     mkdir(datadir)
 
