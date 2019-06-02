@@ -54,7 +54,7 @@ def extract():
         if fields:
             # remove \n characters 
             #symbol = fields[0].text.strip(fields[0].text[-2:])
-            symbol = fields[0].text.replace(str("\n"),"")
+            symbol = fields[0].text.decode("unicode_escape").strip("\n")
             print(symbol)
 
             name = fields[1].text
