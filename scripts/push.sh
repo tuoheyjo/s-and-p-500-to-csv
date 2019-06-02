@@ -17,6 +17,6 @@ upload_files() {
 	git push
 }
 
-#init_git
+init_git
 commit_files
 upload_files
