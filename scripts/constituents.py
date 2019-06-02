@@ -54,15 +54,15 @@ def extract():
         fields = row.findAll('td')
 
         if fields:
-            symbol = fields[0].text.rstrip('\n')
+            symbol = fields[0].text.strip('\n')
             # fix as now they have links to the companies on WP
             name = ' '.join(fields[1].stripped_strings)
             sector = ' '.join(fields[3].stripped_strings)
             industry = fields[4].text
             hq = fields[5].text
             first_added = fields[6].text
-            CIK = fields[7].text.rstrip('\n')
-            founded = fields[8].text.rstrip('\n')
+            CIK = fields[7].text.strip('\n')
+            founded = fields[8].text.strip('\n')
 
             records.append([symbol, name, sector, industry, hq.encode('utf-8'), first_added, CIK, founded])
 
