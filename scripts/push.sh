@@ -1,8 +1,8 @@
 #!/bin/sh
 
 init_git() {
-	git config --global user.email "db.update.bot@gmail.com"
-	git config --global user.name "db-update-bot"
+	git config --global user.email "travis@travis-ci.org"
+	git config --global user.name "Travis CI"
 }
 
 commit_files() {
@@ -12,7 +12,6 @@ commit_files() {
 }
 
 upload_files() {
-	echo ${GITHUB_UPDATE_TOKEN}
 	git remote add origin https://${GITHUB_UPDATE_TOKEN}@github.com/flynneva/db_stock_functions.git
 	git push
 }

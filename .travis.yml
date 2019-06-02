@@ -12,6 +12,9 @@ after_success:
 - "./push.sh"
 deploy:
   skip_cleanup: true
+  target-branch: master
+  github-token: $GITHUB_UPDATE_TOKEN
+  keep_history: true
   provider: script
   script: make
   on:

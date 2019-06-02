@@ -56,8 +56,8 @@ def extract():
             industry = fields[4].text
             hq = fields[5].text
             first_added = fields[6].text
-            CIK = fields[7].text
-            founded = fields[8].text
+            CIK = fields[7].text.rstrip('\n')
+            founded = fields[8].text.rstrip('\n')
 
             records.append([symbol, name, sector, industry, hq.encode('utf-8'), first_added, CIK, founded])
 
