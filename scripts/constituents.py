@@ -54,7 +54,7 @@ def extract():
         fields = row.findAll('td')
 
         if fields:
-            symbol = fields[0].text.split('\n')[0]
+            symbol = fields[0].text.replace('\n', '')
             # fix as now they have links to the companies on WP
             name = fields[1].text.strip('\n')
             sector = fields[3].text.strip('\n')
