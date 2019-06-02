@@ -8,3 +8,5 @@ i've configured this to be built with travis-ci too automatically everyday for t
 
 maybe someday this can be useful to someone else.
 
+started from this repository here: github.com/datasets/s-and-p-500
+
