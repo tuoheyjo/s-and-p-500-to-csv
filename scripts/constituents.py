@@ -35,7 +35,7 @@ def retrieve():
 
 
 def extract():
-    source_page = open(cache).read()
+    source_page = open(cache, 'r').read()
     soup = BeautifulSoup(source_page, 'html.parser')
     table = soup.find("table", { "class" : "wikitable sortable" })
 
@@ -52,7 +52,7 @@ def extract():
         fields = row.findAll('td')
 
         if fields:
-            symbol = str(fields[0].get_text()).strip(b"\n")
+            symbol = str(fields[0].get_text()).strip("\n")
             print(symbol)
             # fix as now they have links to the companies on WP
             name = str(fields[1].get_text())
