@@ -7,12 +7,12 @@ init_git() {
 
 commit_files() {
 	git checkout master
-	git add . *.html
+	git add *
 	git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
 upload_files() {
-	git remote add master https://${GITHUB_UPDATE_TOKEN}@github.com/flynneva/db_stock_functions.git > /dev/null 2>&1
+	git remote add origin https://db-update-bot:${GITHUB_UPDATE_TOKEN}@github.com/flynneva/db_stock_functions.git > /dev/null 2>&1
 	git push --quiet --set-upstream
 }
 
