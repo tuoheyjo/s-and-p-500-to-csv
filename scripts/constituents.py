@@ -54,17 +54,17 @@ def extract():
         fields = row.findAll('td')
 
         if fields:
-            symbol = fields[0].text.strip('\n')
+            symbol = fields[0].stripped_strings
             # fix as now they have links to the companies on WP
             name = ' '.join(fields[1].stripped_strings)
             sector = ' '.join(fields[3].stripped_strings)
-            industry = fields[4].text
-            hq = fields[5].text
-            first_added = fields[6].text
-            CIK = fields[7].text.strip('\n')
-            founded = fields[8].text.strip('\n')
+            industry = fields[4].stripped_strings
+            hq = fields[5].stripped_strings
+            first_added = fields[6].stripped_strings
+            CIK = fields[7].stripped_strings
+            founded = fields[8].stripped_strings
 
-            records.append([symbol, name, sector, industry, hq.encode('utf-8'), first_added, CIK, founded])
+            records.append([symbol, name, sector, industry, hq, first_added, CIK, founded])
 
     header = ['Symbol', 'Name', 'Sector', 'SubIndustry', 'Headquarters_Location', 'Date_First_Added', 'CIK', 'Founded']
     writer = csv.writer(open('../data/constituents.csv', 'w'), lineterminator='\n')
