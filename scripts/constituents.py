@@ -13,10 +13,10 @@ except ImportError:
 
 datadir = join('..', 'data')
 
-if not exists(datadir):
-    mkdir(datadir)
-else:
+if (exists(datadir)):
     remove(join(datadir, 'constituents.csv'))
+else:
+    mkdir(datadir)
 
 if not exists('tmp'):
     mkdir('tmp')
