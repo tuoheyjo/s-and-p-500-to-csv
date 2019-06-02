@@ -12,7 +12,8 @@ commit_files() {
 }
 
 upload_files() {
-	git
+	git config user.email
+	git config user.name	
 	git push
 }
 
