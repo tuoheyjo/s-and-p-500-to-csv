@@ -12,8 +12,7 @@ commit_files() {
 }
 
 upload_files() {
-	git remote add origin https://db-update-bot:${GITHUB_UPDATE_TOKEN}@github.com/flynneva/db_stock_functions.git > /dev/null 2>&1
-	git push --quiet --set-upstream
+	git push
 }
 
 init_git
