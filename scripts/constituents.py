@@ -53,8 +53,9 @@ def extract():
 
         if fields:
             
-            symbol = fields[0].text.decode('UTF-8').strip('\n')
+            symbol = fields[0].text.strip('\n')
             print(symbol)
+            print(symbol[-2:])
             # fix as now they have links to the companies on WP
             name = str(fields[1].get_text())
             sector = fields[3].text.strip('\n')
