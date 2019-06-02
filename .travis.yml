@@ -13,12 +13,9 @@ after_success:
 deploy:
   skip_cleanup: true
   target-branch: master
-  github-token: $GITHUB_UPDATE_TOKEN
+  github-token: $GITHUB_TOKEN
   keep_history: true
   provider: script
   script: make
   on:
     all_branches: true
-env:
-  global:
-  - secure: SMKivG5J4bvpFVqEPHxwskgYq1RGRc7oHecafQavkyk2K5nRj9rrO/kDr2Xy5XYUUOmZ3dxi45lD0ckTgOWHWn1HWAQBP2pEFdTNtE/twGrDA+kRsV9kzC4w+OJeTsTvx2eAFqBZ7KZ0PoSPVYnwd42oztyH9wwl+ProW1tJeQfCihdMEq4zaH1KVrSRwuDZcbmwEgNvNNuW4mwnxuKw9CtIKyy2sR+WzWjqGYoi+iZ4FPRgcVwX9HfZIOl3auUixf5tQA9VA2rPmn1l5s+yCu0XveVC2pkZxwdYoddEA+NlIJ3BE2/f2rRV7RAIQKO7i4HAQ5bopboc4KpO6xRfsFoCRj+lYnkcC2Sd7Jd4jq13VyONb8mDaW0we9GhqelvGS8aJ8Cm3zw5IRwVALzt0mR7WveVlyvuzLqBPkf/dH7325DkNMTdNmtdb3MVvZGE7v6/Nz9KN5Sanv2hzjAbMPoS5bVd9Ag607fYARDPn3WkxzG6gTJwICpVVAIxa67/QFZ2wtB65Jcam/c0dOIOu/1Nc5ocdzG2sl6jBqbRL0hyrcyB+bXyiMt5kzk9Lzdgql22PkpBhzMZcPiAgQvhDDRe8WPvDFLmxF5irbm6Q8ZP8xJcUu53vKE8VrxG95E0VrOv7r/7EH2HNkiR7BRejZsSM66t31b8SyKNFNRkvTU=
