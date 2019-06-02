@@ -25,7 +25,9 @@ script:
   - rm -rf data/
   - cd scripts
   - make
-  - push.sh
+
+after_success:
+        - ./scripts/push.sh
 
 before_deploy:
 # Git is in detached HEAD, so we get back on the branch we are supposed to be
