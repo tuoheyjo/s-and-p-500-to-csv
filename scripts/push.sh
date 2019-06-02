@@ -6,13 +6,13 @@ init_git() {
 }
 
 commit_files() {
-	git checkout -b gh-pages
+	git checkout -b origin-master
 	git add . *.html
 	git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
 upload_files() {
-	git remote add origin-pages https://${GITHUB_UPDATE_TOKEN}@github.com/flynneva/db_stock_functions.git > /dev/null 2>&1
+	git remote add origin-master https://${GITHUB_UPDATE_TOKEN}@github.com/flynneva/db_stock_functions.git > /dev/null 2>&1
 	git push --quiet --set-upstream
 }
 
