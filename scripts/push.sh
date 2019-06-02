@@ -6,7 +6,7 @@ init_git() {
 }
 
 commit_files() {
-	git checkout -b master
+	git checkout master
 	git add . *.html
 	git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
