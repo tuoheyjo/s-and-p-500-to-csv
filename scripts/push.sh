@@ -12,8 +12,8 @@ commit_files() {
 }
 
 upload_files() {
-	git config user.email
-	git config user.name	
+	echo ${GITHUB_UPDATE_TOKEN}
+	git remote add origin https://${GITHUB_UPDATE_TOKEN}@github.com/flynneva/db_stock_functions.git
 	git push
 }
 
