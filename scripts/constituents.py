@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 import sys
 import re
-from os import mkdir
+from os import mkdir, remove
 from os.path import exists, join
 try:
     from urllib.request import urlopen
@@ -15,6 +15,8 @@ datadir = join('..', 'data')
 
 if not exists(datadir):
     mkdir(datadir)
+else:
+    remove(join(datadir, 'constituents.csv'))
 
 if not exists('tmp'):
     mkdir('tmp')
