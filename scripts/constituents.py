@@ -41,8 +41,6 @@ def extract():
 
     # Fail now if we haven't found the right table
     header = table.findAll('th')
-    #print(header[0].string, 'is', bool(header[0].string != None))
-    #print(header[1].string, 'is', bool(header[1].string != "Security"))
 
     if header[0].string != None or header[1].string != "Security":
         raise Exception("Can't parse wikipedia's table!")
@@ -54,7 +52,8 @@ def extract():
         fields = row.findAll('td')
 
         if fields:
-            symbol = fields[0].text.replace('\n', '')
+            symbol = str(fields[0].get_text()).strip('\n')
+            print(symbol)
             # fix as now they have links to the companies on WP
             name = fields[1].text.strip('\n')
             sector = fields[3].text.strip('\n')
