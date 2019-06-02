@@ -27,11 +27,8 @@ script:
   - make
 
 after_success:
-        - ./scripts/push.sh
-
-before_deploy:
-# Git is in detached HEAD, so we get back on the branch we are supposed to be
-  - git checkout master
+        - ls
+        - ./push.sh
 
 deploy:
   skip_cleanup: true
