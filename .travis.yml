@@ -5,6 +5,7 @@ python:
 install:
   - pip install -r scripts/requirements.txt
 # Avoid warnings from git :
+  - 
   - git config --global push.default simple
   - git config --global user.email "db.update.bot@gmail.com"
   - git config --global user.name "db-update-bot"
@@ -24,6 +25,7 @@ script:
   - rm -rf data/
   - cd scripts
   - make
+  - push.sh
 
 before_deploy:
 # Git is in detached HEAD, so we get back on the branch we are supposed to be
