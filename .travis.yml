@@ -4,20 +4,6 @@ python:
 
 install:
   - pip install -r scripts/requirements.txt
-# Avoid warnings from git :
-  - 
-  - git config --global push.default simple
-  - git config --global user.email "db.update.bot@gmail.com"
-  - git config --global user.name "db-update-bot"
-
-#before_script:
-# Add the ssh key
-#  - echo "-----BEGIN RSA PRIVATE KEY-----" >> ~/.ssh/id_rsa
-#  - echo "$SSH_PUSH_KEY" | sed 's/ /\n/g' >> ~/.ssh/id_rsa
-#  - echo "-----END RSA PRIVATE KEY-----" >> ~/.ssh/id_rsa
-#  - chmod 600 ~/.ssh/id_rsa
-# Add remote for ssh access
-#  - git remote add publish git@github.com:$TRAVIS_REPO_SLUG.git
 
 script:
   # Run from scratch
@@ -27,7 +13,6 @@ script:
   - make
 
 after_success:
-        - ls
         - ./push.sh
 
 deploy:
