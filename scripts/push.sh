@@ -7,7 +7,7 @@ init_git() {
 
 commit_files() {
 	git checkout master
-	git add *
+	git add data/constituents.csv
 	git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
