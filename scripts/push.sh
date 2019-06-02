@@ -15,7 +15,7 @@ upload_files() {
 	# Remove existing "origin"
 	git remote rm origin
 	# Add new "origin" with access token in the git URL for authentication
-	git remote add origin https://db-update-bot:${GITHUB_TOKEN}@github.com/flynneva/db_stock_functions.git > /dev/null 2>&1
+	git remote add origin https://db-update-bot:${GITHUB_TOKEN}@github.com/flynneva/s-and-p-500-to-csv.git > /dev/null 2>&1
 	git push origin master --quiet
 }
 
