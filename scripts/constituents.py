@@ -52,10 +52,10 @@ def extract():
         fields = row.findAll('td')
 
         if fields:
-            symbol = str(fields[0].get_text()).rstrip("\n")
+            symbol = str(fields[0].get_text()).replace('\n','')
             print(symbol)
             # fix as now they have links to the companies on WP
-            name = fields[1].text.strip('\n')
+            name = str(fields[1].get_text())
             sector = fields[3].text.strip('\n')
             industry = fields[4].text.strip('\n')
             hq = fields[5].text.strip('\n')
