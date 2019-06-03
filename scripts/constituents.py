@@ -40,22 +40,22 @@ def extract():
     table = soup.find("table", { "class" : "wikitable sortable" })
 
     # Fail now if we haven't found the right table
-    header = table.findAll('th')
+    header = table.find_all('th')
 
     if header[0].string != None or header[1].string != "Security":
         raise Exception("Can't parse wikipedia's table!")
 
     # Retreive the values in the table
     records = []
-    rows = table.findAll('tr')
+    rows = table.find_all('tr')
     for row in rows:
-        fields = row.findAll('td')
+        fields = row.find_all('td')
 
         if fields:
             # remove \n characters 
-            symbol = fields[0].text.strip(fields[0].text[-2:])
-            print(symbol)
-
+            #symbol = fields[0].text.strip(fields[0].text[-2:])
+            for s in fields[0].stripped_strings:
+                symbol = s
             name = fields[1].text
             sector = fields[3].text.strip('\n')
             industry = fields[4].text.strip('\n')
