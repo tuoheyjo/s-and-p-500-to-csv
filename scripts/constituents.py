@@ -55,7 +55,8 @@ def extract():
             # remove \n characters 
             #symbol = fields[0].text.strip(fields[0].text[-2:])
             for s in fields[0].stripped_strings:
-                symbol = s
+                if (s != '\\n'):
+                    symbol = s
             name = fields[1].text
             sector = fields[3].text.strip('\n')
             industry = fields[4].text.strip('\n')
