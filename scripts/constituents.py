@@ -82,6 +82,9 @@ def extract():
             for s in fields[7].stripped_strings:
                 print(s)
                 if (s != '\\n'):
+                    print(s.strip('\n'))
+                    print(s.rstrip('\n'))
+                    print(s.replace('\\n', ''))
                     CIK = s.strip('\n')
             # remove \n characters that appear on travis-ci 
             for s in fields[8].stripped_strings:
