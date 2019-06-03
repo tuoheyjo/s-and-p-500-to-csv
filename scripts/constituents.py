@@ -56,23 +56,37 @@ def extract():
             for s in fields[0].stripped_strings:
                 if (s != '\\n'):
                     symbol = s
-            name = fields[1].text
-            sector = fields[3].text
-            industry = fields[4].text
-            # hq values have commas which cause error below at records.append
-            hq = fields[5].text
-            first_added = fields[6].text
+            # remove \n characters that appear on travis-ci 
+            for s in fields[1].stripped_strings:
+                if (s != '\\n'):
+                    name = s
+            # remove \n characters that appear on travis-ci 
+            for s in fields[3].stripped_strings:
+                if (s != '\\n'):
+                    sector = s
+            # remove \n characters that appear on travis-ci 
+            for s in fields[4].stripped_strings:
+                if (s != '\\n'):
+                    industry = s
+            # remove \n characters that appear on travis-ci 
+            for s in fields[5].stripped_strings:
+                if (s != '\\n'):
+                    hq = s
+            first_added = ""
+            # remove \n characters that appear on travis-ci 
+            for s in fields[6].stripped_strings:
+                first_added = s
+                if (s != '\\n'):
+                    first_added = s
             # remove \n characters that appear on travis-ci 
             for s in fields[7].stripped_strings:
                 if (s != '\\n'):
                     CIK = s
-            
             # remove \n characters that appear on travis-ci 
             for s in fields[8].stripped_strings:
                 if (s != '\\n'):
                     founded = s
-
-            records.append([symbol, name, sector, industry, hq.encode('UTF-8'), first_added, CIK, founded])
+            records.append([symbol, name, sector, industry, hq, first_added, CIK, founded])
 
     header = ['Symbol', 'Name', 'Sector', 'SubIndustry', 'Headquarters_Location', 'Date_First_Added', 'CIK', 'Founded']
     writer = csv.writer(open('../data/constituents.csv', 'w'), lineterminator='\n')
