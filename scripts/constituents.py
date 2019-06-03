@@ -52,18 +52,25 @@ def extract():
         fields = row.find_all('td')
 
         if fields:
-            # remove \n characters 
-            #symbol = fields[0].text.strip(fields[0].text[-2:])
+            # remove \n characters that appear on travis-ci 
             for s in fields[0].stripped_strings:
                 if (s != '\\n'):
                     symbol = s
             name = fields[1].text
-            sector = fields[3].text.strip('\n')
-            industry = fields[4].text.strip('\n')
-            hq = fields[5].text.strip('\n')
-            first_added = fields[6].text.strip('\n')
-            CIK = fields[7].text.strip('\n')
-            founded = fields[8].text.strip('\n')
+            sector = fields[3].text
+            industry = fields[4].text
+            # hq values have commas which cause error below at records.append
+            hq = fields[5].text
+            first_added = fields[6].text
+            # remove \n characters that appear on travis-ci 
+            for s in fields[7].stripped_strings:
+                if (s != '\\n'):
+                    CIK = s
+            
+            # remove \n characters that appear on travis-ci 
+            for s in fields[8].stripped_strings:
+                if (s != '\\n'):
+                    founded = s
 
             records.append([symbol, name, sector, industry, hq.encode('UTF-8'), first_added, CIK, founded])
 
