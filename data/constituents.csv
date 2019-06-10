@@ -69,6 +69,7 @@ BAC,Bank of America Corp,Financials,Diversified Banks,"Charlotte, North Carolina
 BAX,Baxter International Inc.,Health Care,Health Care Equipment,"Deerfield, Illinois",1972-09-30,0000010456,1931\n
 BBT,BB&T Corporation,Financials,Regional Banks,"Winston-Salem, North Carolina",1997-12-04,0000092230,1931\n
 BDX,Becton Dickinson,Health Care,Health Care Equipment,"Franklin Lakes, New Jersey",1972-09-30,0000010795,1897\n
+BMS,Bemis Co Inc,Materials,Paper Packaging,"Neenah, Wisconsin",2019-06-07,0000011199,1897\n
 BRK.B,Berkshire Hathaway,Financials,Multi-Sector Holdings,"Omaha, Nebraska",2010-02-16,0001067983,1897\n
 BBY,Best Buy Co. Inc.,Consumer Discretionary,Computer & Electronics Retail,"Richfield, Minnesota",1999-06-29,0000764478,1897\n
 BIIB,Biogen Inc.,Health Care,Biotechnology,"Cambridge, Massachusetts",2003-11-13,0000875045,1897\n
@@ -131,9 +132,10 @@ ED,Consolidated Edison,Utilities,Electric Utilities,"New York, New York",,000104
 STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,"Victor, New York",2005-07-01,0000016918,1823\n
 CPRT,Copart Inc,Industrials,Diversified Support Services,"Dallas, Texas",2018-07-02,0000900075,1823\n
 GLW,Corning Inc.,Information Technology,Electronic Components,"Corning, New York",,0000024741,1851\n
-COST,Costco Wholesale Corp.,Consumer Staples,Hypermarkets & Super Centers,"Issaquah, Washington",1993-10-01,0000909832,1851\n
-COTY,"Coty, Inc",Consumer Staples,Personal Products,"New York, New York",2016-10-03,0001024305,1851\n
-CCI,Crown Castle International Corp.,Real Estate,Specialized REITs,"Houston, Texas",2012-03-14,0001051470,1851\n
+CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals,"Wilmington, Delaware",2019-06-03,0001755672,2019\n
+COST,Costco Wholesale Corp.,Consumer Staples,Hypermarkets & Super Centers,"Issaquah, Washington",1993-10-01,0000909832,2019\n
+COTY,"Coty, Inc",Consumer Staples,Personal Products,"New York, New York",2016-10-03,0001024305,2019\n
+CCI,Crown Castle International Corp.,Real Estate,Specialized REITs,"Houston, Texas",2012-03-14,0001051470,2019\n
 CSX,CSX Corp.,Industrials,Railroads,"Jacksonville, Florida",1967-09-30,0000277948,1980\n
 CMI,Cummins Inc.,Industrials,Industrial Machinery,"Columbus, Indiana",1965-03-31,0000026172,1919\n
 CVS,CVS Health,Health Care,Health Care Services,"Woonsocket, Rhode Island",,0000064803,1996\n
@@ -156,10 +158,10 @@ DLTR,Dollar Tree,Consumer Discretionary,General Merchandise Stores,"Chesapeake, 
 D,Dominion Energy,Utilities,Electric Utilities,"Richmond, Virginia",,0000715957,1983\n
 DOV,Dover Corp.,Industrials,Industrial Machinery,"Downers Grove, Illinois",1985-10-31,0000029905,1983\n
 DOW,Dow Inc.,Materials,Commodity Chemicals,"Midland, Michigan",2019-04-01,0001751788,2019\n
-DWDP,DowDuPont,Materials,Specialty Chemicals,"Midland, Michigan",,0001666700,2017\n
 DTE,DTE Energy Co.,Utilities,Multi-Utilities,"Detroit, Michigan",,0000936340,1995\n
 DUK,Duke Energy,Utilities,Electric Utilities,"Charlotte, North Carolina",1976-06-30,0001326160,1995\n
 DRE,Duke Realty Corp,Real Estate,Industrial REITs,"Indianapolis, Indiana",2017-07-26,0000783280,1995\n
+DD,DuPont de Nemours Inc,Materials,Specialty Chemicals,"Midland, Michigan",,0001666700,2017\n
 DXC,DXC Technology,Information Technology,IT Consulting & Other Services,"Tysons Corner, Virginia",2017-04-04,0001688568,1995\n
 ETFC,E*Trade,Financials,Investment Banking & Brokerage,"New York, New York",2004-03-31,0001015780,1995\n
 EMN,Eastman Chemical,Materials,Diversified Chemicals,"Kingsport, Tennessee",1994-01-01,0000915389,1995\n
@@ -198,7 +200,6 @@ FISV,Fiserv Inc,Information Technology,Internet Software & Services,"Brookfield,
 FLT,FleetCor Technologies Inc,Information Technology,Data Processing & Outsources Services,"Norcross, Georgia",2018-06-20,0001175454,2000\n
 FLIR,FLIR Systems,Information Technology,Electronic Equipment & Instruments,"Wilsonville, Oregon",2009-01-02,0000354908,2000\n
 FLS,Flowserve Corporation,Industrials,Industrial Machinery,"Irving, Texas",2008-10-02,0000030625,2000\n
-FLR,Fluor Corp.,Industrials,Construction & Engineering,"Irving, Texas",1980-03-31,0001124198,2000\n
 FMC,FMC Corporation,Materials,Fertilizers & Agricultural Chemicals,"Philadelphia, Pennsylvania",2009-08-19,0000037785,2000\n
 FL,Foot Locker Inc,Consumer Discretionary,Apparel Retail,"New York, New York",2016-04-04,0000850209,2000\n
 F,Ford Motor,Consumer Discretionary,Automobile Manufacturers,"Dearborn, Michigan",,0000037996,1903\n
@@ -307,7 +308,6 @@ MMC,Marsh & McLennan,Financials,Insurance Brokers,"New York, New York",1987-08-3
 MLM,Martin Marietta Materials,Materials,Construction Materials,"Raleigh, North Carolina",2014-07-02,0000916076,1927\n
 MAS,Masco Corp.,Industrials,Building Products,"Taylor, Michigan",1981-06-30,0000062996,1927\n
 MA,Mastercard Inc.,Information Technology,IT Services,"Harrison, New York",2008-07-18,0001141391,1927\n
-MAT,Mattel Inc.,Consumer Discretionary,Leisure Products,"El Segundo, California",1982-03-31,0000063276,1927\n
 MXIM,Maxim Integrated Products Inc,Information Technology,Semiconductors,"San Jose, California",2018-12-03,0000743316,1983\n
 MKC,McCormick & Co.,Consumer Staples,Packaged Foods & Meats,"Sparks, Maryland",,0000063754,1889\n
 MCD,McDonald\'s Corp.,Consumer Discretionary,Restaurants,"Chicago, Illinois",1970-06-30,0000063908,1940\n
