@@ -29,6 +29,7 @@ GOOGL,Alphabet Inc Class A,Communication Services,Interactive Media & Services,"
 GOOG,Alphabet Inc Class C,Communication Services,Interactive Media & Services,"Mountain View, California",2006-04-03,0001652044,1998\n
 MO,Altria Group Inc,Consumer Staples,Tobacco,"Richmond, Virginia",,0000764180,1985\n
 AMZN,Amazon.com Inc.,Consumer Discretionary,Internet & Direct Marketing Retail,"Seattle, Washington",2005-11-18,0001018724,1994\n
+AMCR,Amcor plc,Materials,Paper Packaging,", United Kingdom",2019-06-07,0001748790,1994\n
 AEE,Ameren Corp,Utilities,Multi-Utilities,"St. Louis, Missouri",1991-09-19,0001002910,1902\n
 AAL,American Airlines Group,Industrials,Airlines,"Fort Worth, Texas",2015-03-23,0000006201,1934\n
 AEP,American Electric Power,Utilities,Electric Utilities,"Columbus, Ohio",,0000004904,1906\n
@@ -69,7 +70,6 @@ BAC,Bank of America Corp,Financials,Diversified Banks,"Charlotte, North Carolina
 BAX,Baxter International Inc.,Health Care,Health Care Equipment,"Deerfield, Illinois",1972-09-30,0000010456,1931\n
 BBT,BB&T Corporation,Financials,Regional Banks,"Winston-Salem, North Carolina",1997-12-04,0000092230,1931\n
 BDX,Becton Dickinson,Health Care,Health Care Equipment,"Franklin Lakes, New Jersey",1972-09-30,0000010795,1897\n
-BMS,Bemis Co Inc,Materials,Paper Packaging,"Neenah, Wisconsin",2019-06-07,0000011199,1897\n
 BRK.B,Berkshire Hathaway,Financials,Multi-Sector Holdings,"Omaha, Nebraska",2010-02-16,0001067983,1897\n
 BBY,Best Buy Co. Inc.,Consumer Discretionary,Computer & Electronics Retail,"Richfield, Minnesota",1999-06-29,0000764478,1897\n
 BIIB,Biogen Inc.,Health Care,Biotechnology,"Cambridge, Massachusetts",2003-11-13,0000875045,1897\n
@@ -162,9 +162,9 @@ DTE,DTE Energy Co.,Utilities,Multi-Utilities,"Detroit, Michigan",,0000936340,199
 DUK,Duke Energy,Utilities,Electric Utilities,"Charlotte, North Carolina",1976-06-30,0001326160,1995\n
 DRE,Duke Realty Corp,Real Estate,Industrial REITs,"Indianapolis, Indiana",2017-07-26,0000783280,1995\n
 DD,DuPont de Nemours Inc,Materials,Specialty Chemicals,"Midland, Michigan",,0001666700,2017\n
-DXC,DXC Technology,Information Technology,IT Consulting & Other Services,"Tysons Corner, Virginia",2017-04-04,0001688568,1995\n
-ETFC,E*Trade,Financials,Investment Banking & Brokerage,"New York, New York",2004-03-31,0001015780,1995\n
-EMN,Eastman Chemical,Materials,Diversified Chemicals,"Kingsport, Tennessee",1994-01-01,0000915389,1995\n
+DXC,DXC Technology,Information Technology,IT Consulting & Other Services,"Tysons Corner, Virginia",2017-04-04,0001688568,2017\n
+ETFC,E*Trade,Financials,Investment Banking & Brokerage,"New York, New York",2004-03-31,0001015780,2017\n
+EMN,Eastman Chemical,Materials,Diversified Chemicals,"Kingsport, Tennessee",1994-01-01,0000915389,2017\n
 ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,"Dublin, Ireland",,0001551182,1911\n
 EBAY,eBay Inc.,Consumer Discretionary,Internet & Direct Marketing Retail,"San Jose, California",,0001065088,1995\n
 ECL,Ecolab Inc.,Materials,Specialty Chemicals,"St. Paul, Minnesota",1989-01-31,0000031462,1995\n
