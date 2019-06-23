@@ -85,7 +85,7 @@ def extract():
             # remove \n characters that appear on travis-ci 
             for s in fields[8].stripped_strings:
                 if (s != '\\n'):
-                    founded = s
+                    founded = s.replace('\\n', '')
             records.append([symbol, name, sector, industry, hq, first_added, CIK, founded])
 
     header = ['Symbol', 'Name', 'Sector', 'SubIndustry', 'Headquarters_Location', 'Date_First_Added', 'CIK', 'Founded']
