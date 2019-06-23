@@ -34,11 +34,4 @@ with open(fpathcsv, 'rU') as f:
 # save the json
 f = open(fpathjson, 'w')
 f.write(out)
-print "JSON saved!"
-
-# Get the header row as field names
-
-# parse data
-
-# save file
-
+print("JSON saved!")
