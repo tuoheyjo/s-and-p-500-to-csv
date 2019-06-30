@@ -30,12 +30,14 @@ def csv_to_json():
         # assign dictionary field names
         dictReader = csv.DictReader( f, headers)
 
-        out = {}
+        out = []
 
         for row in dictReader:
+            entry = {}
             ID = row["Symbol"]
-            ID = ID.replace('.',',')
-            out[ID] = row
+            entry["name"] = ID
+            entry["details"] = row
+            out.append(entry)
 
     # save the json
     with open(fpathjson, 'w') as f:
