@@ -41,7 +41,6 @@ if (exists(datadir)):
     try:
         with open(fpathjson, 'r') as f:
             data = json.loads(f.read())
-            print(data)
             # Add data to database using the user id token
             data = db.child("s-and-p-500").update(data, user['idToken'])
     
