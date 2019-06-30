@@ -26,6 +26,8 @@ firebase = pyrebase.initialize_app(config)
 auth = firebase.auth()
 # Sign in as User
 user = auth.sign_in_with_email_and_password(email, pw)
+# refresh the token (expires after 1 hr)
+user = auth.refresh(user['refreshToken'])
 # Initialize database object
 db = firebase.database()
 
@@ -37,16 +39,11 @@ fpathjson = join(datadir, 'sp500.json')
 if (exists(datadir)):
     
     try:
-        with open(fpathjson, 'rU') as f:
-        
-            # get the dictionary field names
-            data = json.load(f)
-
-            #for company in data:
-            #    print(company["Symbol"])
-                
+        with open(fpathjson, 'r') as f:
+            data = json.loads(f.read())
+            print(data)
             # Add data to database using the user id token
-            data = db.child("s-and-p-500").push(data, user['idToken'])
+            data = db.child("s-and-p-500").update(data, user['idToken'])
     
-    except:
-        print("something went wrong parsing the JSON file...")
+    except Exception as e:
+        print(e)

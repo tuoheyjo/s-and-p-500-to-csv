@@ -1239,6 +1239,16 @@
         "Founded": "1999", 
         "Date_First_Added": "2000-06-05"
     }, 
+    "BF,B": {
+        "Sector": "Consumer Staples", 
+        "Headquarters_Location": "Louisville, Kentucky", 
+        "Name": "Brown-Forman Corp.", 
+        "CIK": "0000014693", 
+        "Symbol": "BF.B", 
+        "SubIndustry": "Distillers & Vintners", 
+        "Founded": "1962", 
+        "Date_First_Added": "1982-10-31"
+    }, 
     "ABC": {
         "Sector": "Health Care", 
         "Headquarters_Location": "Chesterbrook, Pennsylvania", 
@@ -1458,6 +1468,16 @@
         "SubIndustry": "Apparel, Accessories & Luxury Goods", 
         "Founded": "1968", 
         "Date_First_Added": "1979-06-30"
+    }, 
+    "BRK,B": {
+        "Sector": "Financials", 
+        "Headquarters_Location": "Omaha, Nebraska", 
+        "Name": "Berkshire Hathaway", 
+        "CIK": "0001067983", 
+        "Symbol": "BRK.B", 
+        "SubIndustry": "Multi-Sector Holdings", 
+        "Founded": "1897", 
+        "Date_First_Added": "2010-02-16"
     }, 
     "AMZN": {
         "Sector": "Consumer Discretionary", 
@@ -4139,16 +4159,6 @@
         "Founded": "1898", 
         "Date_First_Added": ""
     }, 
-    "BF.B": {
-        "Sector": "Consumer Staples", 
-        "Headquarters_Location": "Louisville, Kentucky", 
-        "Name": "Brown-Forman Corp.", 
-        "CIK": "0000014693", 
-        "Symbol": "BF.B", 
-        "SubIndustry": "Distillers & Vintners", 
-        "Founded": "1962", 
-        "Date_First_Added": "1982-10-31"
-    }, 
     "WMT": {
         "Sector": "Consumer Staples", 
         "Headquarters_Location": "Bentonville, Arkansas", 
@@ -4328,16 +4338,6 @@
         "SubIndustry": "Semiconductors", 
         "Founded": "1866", 
         "Date_First_Added": "1976-12-31"
-    }, 
-    "BRK.B": {
-        "Sector": "Financials", 
-        "Headquarters_Location": "Omaha, Nebraska", 
-        "Name": "Berkshire Hathaway", 
-        "CIK": "0001067983", 
-        "Symbol": "BRK.B", 
-        "SubIndustry": "Multi-Sector Holdings", 
-        "Founded": "1897", 
-        "Date_First_Added": "2010-02-16"
     }, 
     "NWS": {
         "Sector": "Communication Services", 

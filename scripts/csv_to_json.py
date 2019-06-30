@@ -34,14 +34,13 @@ def csv_to_json():
 
         for row in dictReader:
             ID = row["Symbol"]
+            ID = ID.replace('.',',')
             out[ID] = row
-        # parse the csv data to json
-        #out = json.dumps( [ row for row in dictReader ] )
 
     # save the json
-    f = open(fpathjson, 'w')
-    f.write(json.dumps(out, indent = 4))
-    print("JSON saved!")
+    with open(fpathjson, 'w') as f:
+        f.write(json.dumps(out, indent = 4))
+        print("JSON saved!")
 
 if __name__ == '__main__':
     csv_to_json()
