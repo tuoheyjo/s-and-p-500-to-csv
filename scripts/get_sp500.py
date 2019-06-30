@@ -12,10 +12,11 @@ except ImportError:
 
 
 datadir = join('..', 'data')
+csvdir = join(datadir, 'sp500.csv')
 
 if (exists(datadir)):
     try:
-        remove(join(datadir, 'constituents.csv'))
+        remove(csvdir)
     except:
         print("/data directory empty...continue on...")
 else:
@@ -89,7 +90,7 @@ def extract():
             records.append([symbol, name, sector, industry, hq, first_added, CIK, founded])
 
     header = ['Symbol', 'Name', 'Sector', 'SubIndustry', 'Headquarters_Location', 'Date_First_Added', 'CIK', 'Founded']
-    writer = csv.writer(open('../data/constituents.csv', 'w'), lineterminator='\n')
+    writer = csv.writer(open(csvdir, 'w'), lineterminator='\n')
     writer.writerow(header)
     # Sorting ensure easy tracking of modifications
     records.sort(key=lambda s: s[1].lower())

@@ -32,7 +32,7 @@ db = firebase.database()
 # Open JSON file with data
 dirpath = dirname(sys.path[0])
 datadir = join(dirpath, 'data')
-fpathjson = join(datadir, 'constituents.json')
+fpathjson = join(datadir, 'sp500.json')
 
 if (exists(datadir)):
     
