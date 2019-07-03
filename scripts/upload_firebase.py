@@ -39,7 +39,6 @@ fpathjson = join(datadir, 'sp500.json')
 if (exists(datadir)):
     
     try:
-        print("opening json file from " + fpathjson)
         with open(fpathjson, 'r') as f:
             data = json.loads(f.read())
             # Add data to database using the user id token
