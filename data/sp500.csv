@@ -225,7 +225,6 @@ GWW,Grainger (W.W.) Inc.,Industrials,Industrial Machinery,"Lake Forest, Illinois
 HAL,Halliburton Co.,Energy,Oil & Gas Equipment & Services,"Houston, Texas",,0000045012,1919
 HBI,Hanesbrands Inc,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Winston-Salem, North Carolina",2015-03-20,0001359841,1919
 HOG,Harley-Davidson,Consumer Discretionary,Motorcycle Manufacturers,"Milwaukee, Wisconsin",,0000793952,1903
-HRS,Harris Corporation,Industrials,Aerospace & Defense,"Melbourne, Florida",2008-09-22,0000202058,1903
 HIG,Hartford Financial Svc.Gp.,Financials,Property & Casualty Insurance,"Hartford, Connecticut",,0000874766,1903
 HAS,Hasbro Inc.,Consumer Discretionary,Leisure Products,"Pawtucket, Rhode Island",1984-09-30,0000046080,1903
 HCA,HCA Healthcare,Health Care,Health Care Facilities,"Nashville, Tennessee",2015-01-27,0000860730,1903
@@ -284,10 +283,10 @@ KSS,Kohl's Corp.,Consumer Discretionary,General Merchandise Stores,"Menomonee Fa
 KHC,Kraft Heinz Co,Consumer Staples,Packaged Foods & Meats,"Pittsburgh, Pennsylvania",2015-07-06,0001637459,1962
 KR,Kroger Co.,Consumer Staples,Food Retail,"Cincinnati, Ohio",,0000056873,1883
 LB,L Brands Inc.,Consumer Discretionary,Apparel Retail,"Columbus, Ohio",1983-09-30,0000701985,1883
-LLL,L-3 Communications Holdings,Industrials,Aerospace & Defense,"New York, New York",,0001039101,1997
-LH,Laboratory Corp. of America Holding,Health Care,Health Care Services,"Burlington, North Carolina",2004-11-01,0000920148,1997
-LRCX,Lam Research,Information Technology,Semiconductor Equipment,"Fremont, California",2012-06-29,0000707549,1997
-LW,Lamb Weston Holdings Inc,Consumer Staples,Packaged Foods & Meats,"Eagle, Idaho",2018-12-03,0001679273,1997
+LHX,L3Harris Technologies,Industrials,Aerospace & Defense,"Melbourne, Florida",,0000202058,1883
+LH,Laboratory Corp. of America Holding,Health Care,Health Care Services,"Burlington, North Carolina",2004-11-01,0000920148,1883
+LRCX,Lam Research,Information Technology,Semiconductor Equipment,"Fremont, California",2012-06-29,0000707549,1883
+LW,Lamb Weston Holdings Inc,Consumer Staples,Packaged Foods & Meats,"Eagle, Idaho",2018-12-03,0001679273,1883
 LEG,Leggett & Platt,Consumer Discretionary,Home Furnishings,"Carthage, Missouri",,0000058492,1883
 LEN,Lennar Corp.,Consumer Discretionary,Homebuilding,"Miami, Florida",2005-10-04,0000920760,1883
 LLY,Lilly (Eli) & Co.,Health Care,Pharmaceuticals,"Indianapolis, Indiana",1970-12-31,0000059478,1876
@@ -303,6 +302,7 @@ MAC,Macerich,Real Estate,Retail REITs,"Santa Monica, California",2013-05-09,0000
 M,Macy's Inc.,Consumer Discretionary,Department Stores,"Cincinnati, Ohio",,0000794367,1929
 MRO,Marathon Oil Corp.,Energy,Oil & Gas Exploration & Production,"Houston, Texas",1991-05-01,0000101778,1929
 MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,"Findlay, Ohio",2011-07-01,0001510295,1929
+MKTX,MarketAxess,Financials,Financial Exchanges & Data,"New York, New York",2019-07-01,0001278021,1929
 MAR,Marriott Int'l.,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Bethesda, Maryland",,0001048286,1927
 MMC,Marsh & McLennan,Financials,Insurance Brokers,"New York, New York",1987-08-31,0000062709,1927
 MLM,Martin Marietta Materials,Materials,Construction Materials,"Raleigh, North Carolina",2014-07-02,0000916076,1927
@@ -460,7 +460,7 @@ ULTA,Ulta Beauty,Consumer Discretionary,Specialty Stores,"Bolingbrook, Illinois"
 UAA,Under Armour Class A,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Baltimore, Maryland",2016-03-25,0001336917,1968
 UA,Under Armour Class C,Consumer Discretionary,"Apparel, Accessories & Luxury Goods","Baltimore, Maryland",2014-05-01,0001336917,1968
 UNP,Union Pacific Corp,Industrials,Railroads,"Omaha, Nebraska",,0000100885,1968
-UAL,United Continental Holdings,Industrials,Airlines,"Chicago, Illinois",2015-09-03,0000100517,1968
+UAL,United Airlines Holdings,Industrials,Airlines,"Chicago, Illinois",2015-09-03,0000100517,1968
 UNH,United Health Group Inc.,Health Care,Managed Health Care,"Minnetonka, Minnesota",1994-07-01,0000731766,1968
 UPS,United Parcel Service,Industrials,Air Freight & Logistics,"Atlanta, Georgia",2002-07-22,0001090727,1968
 URI,"United Rentals, Inc.",Industrials,Trading Companies & Distributors,"Stamford, Connecticut",2014-09-20,0001067701,1968

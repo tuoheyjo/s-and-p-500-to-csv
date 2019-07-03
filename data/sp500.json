@@ -112,7 +112,7 @@
     "UAL": {
         "Sector": "Industrials", 
         "Headquarters_Location": "Chicago, Illinois", 
-        "Name": "United Continental Holdings", 
+        "Name": "United Airlines Holdings", 
         "CIK": "0000100517", 
         "Symbol": "UAL", 
         "SubIndustry": "Airlines", 
@@ -239,15 +239,15 @@
         "Founded": "1856", 
         "Date_First_Added": "2013-06-06"
     }, 
-    "NTAP": {
-        "Sector": "Information Technology", 
-        "Headquarters_Location": "Sunnyvale, California", 
-        "Name": "NetApp", 
-        "CIK": "0001002047", 
-        "Symbol": "NTAP", 
-        "SubIndustry": "Internet Software & Services", 
-        "Founded": "1928 (2011)", 
-        "Date_First_Added": "1999-06-25"
+    "LHX": {
+        "Sector": "Industrials", 
+        "Headquarters_Location": "Melbourne, Florida", 
+        "Name": "L3Harris Technologies", 
+        "CIK": "0000202058", 
+        "Symbol": "LHX", 
+        "SubIndustry": "Aerospace & Defense", 
+        "Founded": "1883", 
+        "Date_First_Added": ""
     }, 
     "MAS": {
         "Sector": "Industrials", 
@@ -1166,7 +1166,7 @@
         "CIK": "0000920148", 
         "Symbol": "LH", 
         "SubIndustry": "Health Care Services", 
-        "Founded": "1997", 
+        "Founded": "1883", 
         "Date_First_Added": "2004-11-01"
     }, 
     "LW": {
@@ -1176,7 +1176,7 @@
         "CIK": "0001679273", 
         "Symbol": "LW", 
         "SubIndustry": "Packaged Foods & Meats", 
-        "Founded": "1997", 
+        "Founded": "1883", 
         "Date_First_Added": "2018-12-03"
     }, 
     "PGR": {
@@ -1358,6 +1358,16 @@
         "SubIndustry": "Residential REITs", 
         "Founded": "2006", 
         "Date_First_Added": "2016-03-07"
+    }, 
+    "NTAP": {
+        "Sector": "Information Technology", 
+        "Headquarters_Location": "Sunnyvale, California", 
+        "Name": "NetApp", 
+        "CIK": "0001002047", 
+        "Symbol": "NTAP", 
+        "SubIndustry": "Internet Software & Services", 
+        "Founded": "1928 (2011)", 
+        "Date_First_Added": "1999-06-25"
     }, 
     "CERN": {
         "Sector": "Health Care", 
@@ -1578,16 +1588,6 @@
         "SubIndustry": "Multi-line Insurance", 
         "Founded": "1876", 
         "Date_First_Added": ""
-    }, 
-    "HRS": {
-        "Sector": "Industrials", 
-        "Headquarters_Location": "Melbourne, Florida", 
-        "Name": "Harris Corporation", 
-        "CIK": "0000202058", 
-        "Symbol": "HRS", 
-        "SubIndustry": "Aerospace & Defense", 
-        "Founded": "1903", 
-        "Date_First_Added": "2008-09-22"
     }, 
     "HRL": {
         "Sector": "Consumer Staples", 
@@ -3309,6 +3309,16 @@
         "Founded": "1837", 
         "Date_First_Added": "2005-08-19"
     }, 
+    "MKTX": {
+        "Sector": "Financials", 
+        "Headquarters_Location": "New York, New York", 
+        "Name": "MarketAxess", 
+        "CIK": "0001278021", 
+        "Symbol": "MKTX", 
+        "SubIndustry": "Financial Exchanges & Data", 
+        "Founded": "1929", 
+        "Date_First_Added": "2019-07-01"
+    }, 
     "PSX": {
         "Sector": "Energy", 
         "Headquarters_Location": "Houston, Texas", 
@@ -4399,16 +4409,6 @@
         "Founded": "1922", 
         "Date_First_Added": "2017-03-02"
     }, 
-    "LLL": {
-        "Sector": "Industrials", 
-        "Headquarters_Location": "New York, New York", 
-        "Name": "L-3 Communications Holdings", 
-        "CIK": "0001039101", 
-        "Symbol": "LLL", 
-        "SubIndustry": "Aerospace & Defense", 
-        "Founded": "1997", 
-        "Date_First_Added": ""
-    }, 
     "NWL": {
         "Sector": "Consumer Discretionary", 
         "Headquarters_Location": "Hoboken, New Jersey", 
@@ -4456,7 +4456,7 @@
         "CIK": "0000707549", 
         "Symbol": "LRCX", 
         "SubIndustry": "Semiconductor Equipment", 
-        "Founded": "1997", 
+        "Founded": "1883", 
         "Date_First_Added": "2012-06-29"
     }, 
     "O": {
