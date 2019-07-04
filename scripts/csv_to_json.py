@@ -39,7 +39,7 @@ def csv_to_json():
 
     # save the json
     with open(fpathjson, 'w') as f:
-        f.write(out)
+        f.write(str(out))
         print("JSON saved!")
 
 if __name__ == '__main__':
