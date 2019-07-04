@@ -168,7 +168,7 @@ EMN,Eastman Chemical,Materials,Diversified Chemicals,"Kingsport, Tennessee",1994
 ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,"Dublin, Ireland",,0001551182,1911
 EBAY,eBay Inc.,Consumer Discretionary,Internet & Direct Marketing Retail,"San Jose, California",,0001065088,1995
 ECL,Ecolab Inc.,Materials,Specialty Chemicals,"St. Paul, Minnesota",1989-01-31,0000031462,1995
-EIX,Edison Int'l,Utilities,Electric Utilities,"Rosemead, California",,0000827052,1886
+EIX,Edison Int\'l,Utilities,Electric Utilities,"Rosemead, California",,0000827052,1886
 EW,Edwards Lifesciences,Health Care,Health Care Equipment,"Irvine, California",2011-04-01,0001099800,1886
 EA,Electronic Arts,Communication Services,Interactive Home Entertainment,"Redwood City, California",2002-07-22,0000712515,1886
 EMR,Emerson Electric Company,Industrials,Electrical Components & Equipment,"Ferguson, Missouri",1965-03-31,0000032604,1890
@@ -237,7 +237,7 @@ HLT,Hilton Worldwide Holdings Inc,Consumer Discretionary,"Hotels, Resorts & Crui
 HFC,HollyFrontier Corp,Energy,Oil & Gas Refining & Marketing,"Dallas, Texas",2018-06-18,0000048039,1894
 HOLX,Hologic,Health Care,Health Care Equipment,"Marlborough, Massachusetts",2016-03-30,0000859737,1894
 HD,Home Depot,Consumer Discretionary,Home Improvement Retail,"Atlanta, Georgia",1988-03-31,0000354950,1894
-HON,Honeywell Int'l Inc.,Industrials,Industrial Conglomerates,"Morristown, New Jersey",1964-03-31,0000773840,1906
+HON,Honeywell Int\'l Inc.,Industrials,Industrial Conglomerates,"Morristown, New Jersey",1964-03-31,0000773840,1906
 HRL,Hormel Foods Corp.,Consumer Staples,Packaged Foods & Meats,"Austin, Minnesota",2009-03-04,0000048465,1906
 HST,Host Hotels & Resorts,Real Estate,Hotel & Resort REITs,"Bethesda, Maryland",2007-03-20,0001070750,1906
 HPQ,HP Inc.,Information Technology,"Technology Hardware, Storage & Peripherals","Palo Alto, California",1974-12-31,0000047217,1939 (2015)
@@ -279,7 +279,7 @@ KMB,Kimberly-Clark,Consumer Staples,Household Products,"Irving, Texas",,00000557
 KIM,Kimco Realty,Real Estate,Retail REITs,"New Hyde Park, New York",2006-04-04,0000879101,1872
 KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,"Houston, Texas",2012-05-25,0001506307,1872
 KLAC,KLA-Tencor Corp.,Information Technology,Semiconductor Equipment,"Milpitas, California",,0000319201,1975/1977 (1997)
-KSS,Kohl's Corp.,Consumer Discretionary,General Merchandise Stores,"Menomonee Falls, Wisconsin",,0000885639,1962
+KSS,Kohl\'s Corp.,Consumer Discretionary,General Merchandise Stores,"Menomonee Falls, Wisconsin",,0000885639,1962
 KHC,Kraft Heinz Co,Consumer Staples,Packaged Foods & Meats,"Pittsburgh, Pennsylvania",2015-07-06,0001637459,1962
 KR,Kroger Co.,Consumer Staples,Food Retail,"Cincinnati, Ohio",,0000056873,1883
 LB,L Brands Inc.,Consumer Discretionary,Apparel Retail,"Columbus, Ohio",1983-09-30,0000701985,1883
@@ -295,22 +295,22 @@ LIN,Linde plc,Materials,Industrial Gases,", Surrey, United Kingdom",1992-07-01,0
 LKQ,LKQ Corporation,Consumer Discretionary,Distributors,"Chicago, Illinois",2016-05-23,0001065696,1876
 LMT,Lockheed Martin Corp.,Industrials,Aerospace & Defense,"Bethesda, Maryland",1984-07-31,0000936468,1876
 L,Loews Corp.,Financials,Multi-line Insurance,"New York, New York",,0000060086,1876
-LOW,Lowe's Cos.,Consumer Discretionary,Home Improvement Retail,"Mooresville, North Carolina",1984-02-29,0000060667,1904/1946/1959
+LOW,Lowe\'s Cos.,Consumer Discretionary,Home Improvement Retail,"Mooresville, North Carolina",1984-02-29,0000060667,1904/1946/1959
 LYB,LyondellBasell,Materials,Specialty Chemicals,"Rotterdam, Netherlands",2012-09-05,0001489393,1904/1946/1959
 MTB,M&T Bank Corp.,Financials,Regional Banks,"Buffalo, New York",,0000036270,1856
 MAC,Macerich,Real Estate,Retail REITs,"Santa Monica, California",2013-05-09,0000912242,1856
-M,Macy's Inc.,Consumer Discretionary,Department Stores,"Cincinnati, Ohio",,0000794367,1929
+M,Macy\'s Inc.,Consumer Discretionary,Department Stores,"Cincinnati, Ohio",,0000794367,1929
 MRO,Marathon Oil Corp.,Energy,Oil & Gas Exploration & Production,"Houston, Texas",1991-05-01,0000101778,1929
 MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,"Findlay, Ohio",2011-07-01,0001510295,1929
 MKTX,MarketAxess,Financials,Financial Exchanges & Data,"New York, New York",2019-07-01,0001278021,1929
-MAR,Marriott Int'l.,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Bethesda, Maryland",,0001048286,1927
+MAR,Marriott Int\'l.,Consumer Discretionary,"Hotels, Resorts & Cruise Lines","Bethesda, Maryland",,0001048286,1927
 MMC,Marsh & McLennan,Financials,Insurance Brokers,"New York, New York",1987-08-31,0000062709,1927
 MLM,Martin Marietta Materials,Materials,Construction Materials,"Raleigh, North Carolina",2014-07-02,0000916076,1927
 MAS,Masco Corp.,Industrials,Building Products,"Taylor, Michigan",1981-06-30,0000062996,1927
 MA,Mastercard Inc.,Information Technology,IT Services,"Harrison, New York",2008-07-18,0001141391,1927
 MXIM,Maxim Integrated Products Inc,Information Technology,Semiconductors,"San Jose, California",2018-12-03,0000743316,1983
 MKC,McCormick & Co.,Consumer Staples,Packaged Foods & Meats,"Sparks, Maryland",,0000063754,1889
-MCD,McDonald's Corp.,Consumer Discretionary,Restaurants,"Chicago, Illinois",1970-06-30,0000063908,1940
+MCD,McDonald\'s Corp.,Consumer Discretionary,Restaurants,"Chicago, Illinois",1970-06-30,0000063908,1940
 MCK,McKesson Corp.,Health Care,Health Care Distributors,"San Francisco, California",,0000927653,1833
 MDT,Medtronic plc,Health Care,Health Care Equipment,Ireland,1986-10-31,0001613103,1833
 MRK,Merck & Co.,Health Care,Pharmaceuticals,"Whitehouse Station, New Jersey",,0000310158,1891
@@ -325,7 +325,7 @@ MHK,Mohawk Industries,Consumer Discretionary,Home Furnishings,"Amsterdam, New Yo
 TAP,Molson Coors Brewing Company,Consumer Staples,Brewers,"Denver, Colorado",1976-06-30,0000024545,1975
 MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,"Deerfield, Illinois",2012-10-02,0001103982,1975
 MNST,Monster Beverage,Consumer Staples,Soft Drinks,"Corona, California",2012-06-28,0000865752,1975
-MCO,Moody's Corp,Financials,Financial Exchanges & Data,"New York, New York",,0001059556,1909
+MCO,Moody\'s Corp,Financials,Financial Exchanges & Data,"New York, New York",,0001059556,1909
 MS,Morgan Stanley,Financials,Investment Banking & Brokerage,"New York, New York",,0000895421,1935
 MSI,Motorola Solutions Inc.,Information Technology,Communications Equipment,"Schaumburg, Illinois",,0000068505,1928 (2011)
 MSCI,MSCI Inc,Financials,Financial Exchanges & Data,"New York, New York",2018-04-04,0001408198,1928 (2011)
@@ -352,7 +352,7 @@ NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cr
 NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,"Princeton, New Jersey",2010-01-29,0001013871,1889
 NUE,Nucor Corp.,Materials,Steel,"Charlotte, North Carolina",1985-04-30,0000073309,1889
 NVDA,Nvidia Corporation,Information Technology,Semiconductors,"Santa Clara, California",2001-11-30,0001045810,1889
-ORLY,O'Reilly Automotive,Consumer Discretionary,Specialty Stores,"Springfield, Missouri",2009-03-27,0000898173,1889
+ORLY,O\'Reilly Automotive,Consumer Discretionary,Specialty Stores,"Springfield, Missouri",2009-03-27,0000898173,1889
 OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,"Houston, Texas",1982-12-31,0000797468,1889
 OMC,Omnicom Group,Communication Services,Advertising,"New York, New York",,0000029989,1986
 OKE,ONEOK,Energy,Oil & Gas Storage & Transportation,"Tulsa, Oklahoma",2010-03-15,0001039684,1986
@@ -363,7 +363,7 @@ PH,Parker-Hannifin,Industrials,Industrial Machinery,"Cleveland, Ohio",1985-11-30
 PAYX,Paychex Inc.,Information Technology,Internet Software & Services,"Penfield, New York",,0000723531,1971
 PYPL,PayPal,Information Technology,Data Processing & Outsourced Services,"San Jose, California",2015-07-20,0001633917,1971
 PNR,Pentair plc,Industrials,Industrial Machinery,"Worsley, UK",2012-10-01,0000077360,1971
-PBCT,People's United Financial,Financials,Thrifts & Mortgage Finance,"Bridgeport, Connecticut",2008-11-13,0001378946,1971
+PBCT,People\'s United Financial,Financials,Thrifts & Mortgage Finance,"Bridgeport, Connecticut",2008-11-13,0001378946,1971
 PEP,PepsiCo Inc.,Consumer Staples,Soft Drinks,"Purchase, New York",,0000077476,1898
 PKI,PerkinElmer,Health Care,Health Care Equipment,"Waltham, Massachusetts",1985-05-31,0000031791,1898
 PRGO,Perrigo,Health Care,Pharmaceuticals,"Dublin, Ireland",2011-12-19,0001585364,1898
@@ -473,7 +473,7 @@ VAR,Varian Medical Systems,Health Care,Health Care Equipment,"Palo Alto, Califor
 VTR,Ventas Inc,Real Estate,Health Care REITs,"Chicago, Illinois",2009-03-04,0000740260,1980
 VRSN,Verisign Inc.,Information Technology,Internet Services & Infrastructure,"Dulles, Virginia",2006-02-01,0001014473,1980
 VRSK,Verisk Analytics,Industrials,Research & Consulting Services,"Jersey City, New Jersey",2015-10-08,0001442145,1980
-VZ,Verizon Communications,Communication Services,Integrated Telecommunication Services,"New York, New York",1983-11-30,0000732712,1980
+VZ,Verizon Communications,Communication Services\n,Integrated Telecommunication Services,"New York, New York",1983-11-30,0000732712,1980
 VRTX,Vertex Pharmaceuticals Inc,Health Care,Biotechnology,"Cambridge, Massachusetts",2013-09-23,0000875320,1980
 VIAB,Viacom Inc.,Communication Services,Movies & Entertainment,"New York, New York",,0001339947,1980
 V,Visa Inc.,Information Technology,IT Services,"San Francisco, California",2009-12-21,0001403161,1980
