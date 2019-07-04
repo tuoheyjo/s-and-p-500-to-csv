@@ -40,9 +40,11 @@ if (exists(datadir)):
     
     try:
         with open(fpathjson, 'r') as f:
-            data = json.loads(f.read())
-            # Add data to database using the user id token
-            data = db.child("s-and-p-500").update(data, user['idToken'])
-    
+            data = json.load(f)
+            try:
+                # Add data to database using the user id token
+                data = db.child("s-and-p-500").update(data, user['idToken'])
+            except:
+                data = db.child("s-and-p-500").set(data, user['idToken'])
     except Exception as e:
         print(e)
