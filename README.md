@@ -1,5 +1,5 @@
 
-# s-and-p-500-to-csv ![build_status](https://travis-ci.org/flynneva/s-and-p-500-to-csv.svg?branch=master)
+# s-and-p-500-to-csv [![Build Status](https://travis-ci.com/flynneva/s-and-p-500-to-csv.svg?branch=master)](https://travis-ci.com/flynneva/s-and-p-500-to-csv)
 this repo is currently under development.
 
 right now all this does is scrape the list of the s and p 500 from wikipedia and then put it in the /data directory in a csv file.
